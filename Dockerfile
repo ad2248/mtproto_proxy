@@ -1,6 +1,6 @@
 # Based on https://github.com/erlang/docker-erlang-example
 
-FROM erlang:21-alpine as builder
+FROM erlang:22-alpine AS builder
 
 RUN apk add --no-cache git
 
